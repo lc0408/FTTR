@@ -1,0 +1,50 @@
+2023-06-25 19:43:41,828 - logger3 - INFO - 
+gccli consoleRedir on
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:41,829 - logger3 - INFO -  gccli consoleRedir on
+console_redirect successfuly 
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:42,831 - logger3 - INFO - roude 0 gccli bob succes
+2023-06-25 19:43:42,832 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0x8D 0x01 0x00
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:43,833 - logger3 - INFO - roude 1 gccli bob succes
+2023-06-25 19:43:43,834 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0x8D 0x01 0x00
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:44,836 - logger3 - INFO - roude 2 gccli bob succes
+2023-06-25 19:43:44,838 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xB6 0x01 0x00
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:45,839 - logger3 - INFO - roude 3 gccli bob succes
+2023-06-25 19:43:45,840 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xB6 0x01 0x00
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:46,840 - logger3 - INFO - roude 4 gccli bob succes
+2023-06-25 19:43:46,841 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xC4 0x01 0x5A
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:47,843 - logger3 - INFO - roude 5 gccli bob succes
+2023-06-25 19:43:47,845 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xC4 0x01 0x5A
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:48,846 - logger3 - INFO - roude 6 gccli bob succes
+2023-06-25 19:43:48,848 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xC5 0x01 0xDD
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:49,849 - logger3 - INFO - roude 7 gccli bob succes
+2023-06-25 19:43:49,850 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xC5 0x01 0xDD
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:50,851 - logger3 - INFO - roude 8 gccli bob succes
+2023-06-25 19:43:50,852 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xC6 0x01 0xBC
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:51,853 - logger3 - INFO - roude 9 gccli bob succes
+2023-06-25 19:43:51,854 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xC6 0x01 0xBC
+bob set reg success
+root@EGT904-H-TW:/home #
+2023-06-25 19:43:52,854 - logger3 - INFO - roude 10 gccli bob succes
+2023-06-25 19:43:52,855 - logger3 - INFO -  gccli bob set 1 0x51 0x81 0xC7 0x01 0xD8
+bob set reg success
+root@EGT904-H-TW:/home #

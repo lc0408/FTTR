@@ -1,0 +1,2 @@
+INFO     logger3:base.py:63  
+root@SAF:/tmp#

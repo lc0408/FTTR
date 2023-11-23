@@ -1,0 +1,53 @@
+2023-06-13 21:06:55,984 - logger3 - INFO -  gc_omcicli omcilog on
+gccli consoleRedir on
+root@GTH904-TW:/home #
+2023-06-13 21:07:59,303 - logger3 - INFO -  gccli consoleRedir on
+console_redirect successfuly 
+root@GTH904-TW:/home #
+2023-06-13 21:08:59,353 - logger3 - INFO -    adding: config.current.xml (deflated 92%)
+Archive:  /tmp/backup_decompress/raw_config
+  inflating: config.current.xml
+[6511.272]=================================RX=====================================
+80 32 49 0a 00 02 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 05 e5 d1 38 
+tId:8032(32818) DB:0 AR:1 AK:0 MT:9(Get) devId:0a meClasId:0002(onudata) meInstId:0000
+MsgType: Get
+attrMask:0x8000
+attrMask:0x8000 attrNo:1  length:1  name:MIBdatasync
+[6511.273]*********************************TX*************************************
+80 32 29 0a 00 02 00 00 00 80 00 0b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 1e a8 56 bd 
+tId:8032(32818) DB:0 AR:0 AK:1 MT:9(Get) devId:0a meClasId:0002(onudata) meInstId:0000
+MsgType: Get
+result:00(success)
+attrMask:0x8000 optnMask:0x0000 execMask:0x0000
+attrMask:0x8000 attrNo:1  length:1  name:MIBdatasync value:0b 
+[6528.750]=================================RX=====================================
+00 01 49 0a 00 07 00 00 f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 99 47 4a 1a 
+tId:0001(1) DB:0 AR:1 AK:0 MT:9(Get) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: Get
+attrMask:0xf000
+attrMask:0x8000 attrNo:1  length:14 name:version
+attrMask:0x4000 attrNo:2  length:1  name:iscommitted
+attrMask:0x2000 attrNo:3  length:1  name:isactive
+attrMask:0x1000 attrNo:4  length:1  name:isvalid
+[6528.751]*********************************TX*************************************
+00 01 29 0a 00 07 00 00 00 f0 00 56 30 31 2e 30 30 2e 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 92 fd d8 f6 
+tId:0001(1) DB:0 AR:0 AK:1 MT:9(Get) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: Get
+result:00(success)
+attrMask:0xf000 optnMask:0x0000 execMask:0x0000
+attrMask:0x8000 attrNo:1  length:14 name:version value:56 30 31 2e 30 30 2e 30 30 00 00 00 00 00 
+attrMask:0x4000 attrNo:2  length:1  name:iscommitted value:00 
+attrMask:0x2000 attrNo:3  length:1  name:isactive value:00 
+attrMask:0x1000 attrNo:4  length:1  name:isvalid value:00 
+[6528.753]=================================RX=====================================
+00 02 53 0a 00 07 00 00 1f 02 35 25 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 a3 9a 4d 40 
+tId:0002(2) DB:0 AR:1 AK:0 MT:19(StartSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: StartSwDload
+MS InstId:00 (ONU-G)
+LS InstId:00 (Image0)
+windowSize:31 (DEC)
+imageSize:37037379 (DEC)
+[6528.762]gcomci: gcOmci_actHandle_softwareimage_startdownload()#
+2023-06-13 21:09:59,356 - logger3 - INFO - 369 expect Max ImgSize:0x7d00000 , imageSize:0x2352543
+
+[6528.763]gcomci: gcOmciMsg_common_mibDataSyncIncrease()#

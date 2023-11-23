@@ -1,0 +1,5 @@
+INFO     logger3:base.py:63  tftp -g -r testserver 192.168.1.65
+#
+INFO     logger3:base.py:63  tftp -g -r testserver.conf 192.168.1.65
+
+#

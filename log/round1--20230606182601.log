@@ -1,0 +1,7 @@
+2023-06-06 18:26:04,189 - logger3 - INFO -  gccli consoleredir on
+unknow command consoleredir
+Valid commands for gccli are:
+epon            gpon            sys             customer        switch          bob             wlan            
+port            mirror          image           voice           consoleRedir    l2tp            vpn             
+dnsmasq         help
+root@GTH904-TW:/home #

@@ -1,0 +1,161 @@
+2023-06-19 20:12:45,592 - logger3 - INFO - 
+2023-06-19 20:12:45,594 - logger3 - INFO - 
+2023-06-19 20:12:55,600 - logger3 - INFO - > ont-upgrade
+           ^
+Error: Bad command
+XSM2C-1-2> manual-upgrade 1/6/1 gcImage0530.bin GTH904-TW
+           ^
+Error: Bad command
+XSM2C-1-2> show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:13:05,605 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:13:15,608 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:13:25,612 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:13:35,617 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> s
+2023-06-19 20:13:45,621 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:13:55,624 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:14:05,628 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:14:15,633 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> s
+2023-06-19 20:14:25,639 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:14:35,645 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:14:45,649 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> s
+2023-06-19 20:14:55,655 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:15:05,659 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:15:15,664 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:15:25,668 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:15:35,672 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:15:45,676 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> 
+2023-06-19 20:15:55,679 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> s
+2023-06-19 20:16:05,683 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> s
+2023-06-19 20:16:15,688 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2> s

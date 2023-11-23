@@ -1,0 +1,142 @@
+2023-06-20 10:18:57,775 - logger3 - INFO - 
+2023-06-20 10:18:57,777 - logger3 - INFO - 
+2023-06-20 10:19:07,780 - logger3 - INFO - anual-upgrade 1/6/1 gcImage0530.bin GTH904-TW
+XSM2C-1-2(config-t-ont-ugp)# show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:19:17,784 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2(config-t-ont-ugp)# 
+2023-06-20 10:19:27,794 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         165664         TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:19:37,799 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         3402560        TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:19:47,802 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         6607712        TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:19:57,805 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         9825760        TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:20:07,813 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         13057696       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:20:17,821 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         16271776       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+2023-06-20 10:20:27,825 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         19483872       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:20:37,830 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         22711840       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:20:47,833 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         25916992       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:20:57,838 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         29139008       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+2023-06-20 10:21:07,843 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         32358048       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:21:17,848 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         35593952       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+2023-06-20 10:21:27,853 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       FINALIZING_TRANSFER
+XSM2C-1-2(config-t-ont-ugp)# 
+2023-06-20 10:21:37,859 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       FINALIZING_TRANSFER
+XSM2C-1-2(config-t-ont-ugp)# 
+2023-06-20 10:21:47,868 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       FINALIZING_TRANSFER
+XSM2C-1-2(config-t-ont-ugp)# 
+2023-06-20 10:21:57,878 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       ACTIVATING
+XSM2C-1-2(config-t-ont-ugp)# s
+2023-06-20 10:22:07,883 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       ACTIVATING
+XSM2C-1-2(config-t-ont-ugp)# 

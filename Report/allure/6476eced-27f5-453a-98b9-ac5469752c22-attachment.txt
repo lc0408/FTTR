@@ -1,0 +1,342 @@
+INFO     logger3:base.py:63 rounde 1
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round1 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round1 reset success
+INFO     logger3:base.py:63 rounde 2
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round2 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round2 reset success slowly
+INFO     logger3:base.py:63 rounde 3
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round3 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round3 reset success slowly
+INFO     logger3:base.py:63 rounde 4
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round4 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round4 reset success slowly
+INFO     logger3:base.py:63 rounde 5
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round5 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round5 reset success slowly
+INFO     logger3:base.py:63 rounde 6
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round6 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round6 reset success slowly
+INFO     logger3:base.py:63 rounde 7
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round7 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          mib audit            manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round7 reset success slowly
+INFO     logger3:base.py:63 rounde 8
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round8 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round8 reset success slowly
+INFO     logger3:base.py:63 rounde 9
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round9 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round9 reset success slowly
+INFO     logger3:base.py:63 rounde 10
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round10 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round10 reset success slowly
+INFO     logger3:base.py:63 rounde 11
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round11 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          los                  manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 round11 reset success slowly
+INFO     logger3:base.py:63 rounde 12
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    ready    auto     snonly          none                 manual  
+
+Total Ont Number    :2
+Active Ont Number   :2
+
+P3608(Slot-5/if-gpon-olt-1/6)#
+INFO     logger3:base.py:63 round12 reg success
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6
+ONT      TYPE   SN              Status   Find     Auth            Reason               Join    
+5/6/1    xgpon  H3CT8A3364A3    ready    auto     snonly          none                 manual  
+5/6/2    xgspon H3CT00000038    offline  auto     snonly          mib audit            manual  
+
+Total Ont Number    :2
+Active Ont Number   :1
+
+P3608(Slot-5/if-gpon-olt-1/6/2)#
+INFO     logger3:base.py:63 brief-show slot 5 ont-info 6

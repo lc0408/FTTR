@@ -1,0 +1,18 @@
+INFO     logger3:base.py:63  2023-11-23 16:34:53.374 [INFO] (bss) accept client "192.168.1.1" fd: 12
+2023-11-23 16:34:53.388 [INFO] (bss) <- {"RPCMethod":"Boot","CKey":"4GI8lo4bMiehE0mI","MAC":"9C09710CD2A0","Vendor":"CT202309","Model":"FM104-TWB","FirmwareVer":"V1.0.0","HardwareVer":"V1.0","GatewayType":"12","DevType":"Smart Home Gateway","bootstrap":"1","CloudCPE":"0","CTEI":"181111111121564", "Binding":0} (270)
+2023-11-23 16:34:53.389 [INFO] (bss) -> {"Result":0,"BizPlat":[{"ServerAddr":"192.168.1.1","ServerPort":7777}],"Ack":"Boot"} (84)
+2023-11-23 16:34:53.408 [INFO] (bss) close client fd: 12
+2023-11-23 16:34:53.421 [INFO] (abi) accept client "192.168.1.1" fd: 12
+2023-11-23 16:34:53.421 [INFO] (abi) <- {"RPCMethod":"GetChallengeCode","MAC":"9C09710CD2A0"} (53)
+2023-11-23 16:34:53.421 [INFO] (abi) -> {"Result":0,"ChallengeCode":"00112233445566778899AABBCCDDEEFF","Ack":"GetChallengeCode"} (88)
+2023-11-23 16:34:53.447 [INFO] (abi) <- {"RPCMethod":"Activate","CKey":"2lEdIDaZXGWrgHLj","MAC":"9C09710CD2A0","Vendor":"CT202309","Model":"FM104-TWB","FirmwareVer":"V1.0.0","HardwareVer":"V1.0","GatewayType":"12","ChallengeCode":"00112233445566778899AABBCCDDEEFF","IPAddr":"192.168.1.1","LOID":"","PlatformID":"CTWRT","CloudClientVer":"V1.0.0","MiddleWareVer":"V1.0.0","MiddleWareBakVer":"V1.0.0","SN":"9C0971-3C5899C09710CD2A0715B96CB","CloudCPE":"0","CTEI":"181111111121564"} (438)
+2023-11-23 16:34:53.448 [INFO] (abi) -> {"Result":0,"DevToken":"TEST_TOKEN","DevID":"TEST_ID","Ack":"Activate"} (71)
+2023-11-23 16:34:53.457 [INFO] (abi) <- {"RPCMethod":"GetChallengeCode","MAC":"9C09710CD2A0"} (53)
+2023-11-23 16:34:53.457 [INFO] (abi) -> {"Result":0,"ChallengeCode":"00112233445566778899AABBCCDDEEFF","Ack":"GetChallengeCode"} (88)
+2023-11-23 16:34:53.488 [INFO] (abi) <- {"RPCMethod":"Connect","CKey":"VepEQtqmZSRoQE4R","MAC":"9C09710CD2A0","Vendor":"CT202309","Model":"FM104-TWB","FirmwareVer":"V1.0.0","HardwareVer":"V1.0","GatewayType":"12","ChallengeCode":"00112233445566778899AABBCCDDEEFF","IPAddr":"192.168.1.1","LOID":"","PlatformID":"CTWRT","Version":"3.0","DBusInterfaceVersion":"1.3","PPPoEName":"","CloudClientVer":"V1.0.0","MiddleWareVer":"V1.0.0","MiddleWareBakVer":"V1.0.0","DevToken":"TEST_TOKEN","DevID":"TEST_ID","Flag":"0","upgrade_ID":"","UPPER_MAC":"","CloudCPE":"0","CTEI":"181111111121564"} (541)
+2023-11-23 16:34:53.489 [INFO] (abi) -> {"Result":0,"SKey":"12345678AABBCCDD","Ack":"Connect"} (54)
+tftp -g -r testserver 192.168.1.65
+tftp: can't open 'testserver': Text file busy
+root@SAF:/tmp#
+INFO     logger3:base.py:63  
+root@SAF:/tmp#

@@ -1,0 +1,387 @@
+2023-06-19 20:00:17,089 - logger3 - INFO - 
+2023-06-19 20:00:18,177 - logger3 - INFO - 
+gc_omcicli dbg 7
+gc_omcicli omcilog on
+gccli consoleRedir on
+root@GTH904-TW:/home # gc_omcicli dbg 7
+root@GTH904-TW:/home # gc_omcicli omcilog on
+root@GTH904-TW:/home # gccli consoleRedir on
+console_redirect successfuly 
+root@GTH904-TW:/home #   adding: config.current.xml (deflated 92%)
+Archive:  /tmp/backup_decompress/raw_config
+  inflating: config.current.xml
+c
+2023-06-19 20:00:28,182 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:00:38,189 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+2023-06-19 20:00:48,192 - logger3 - INFO - cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+2023-06-19 20:00:58,196 - logger3 - INFO - cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:01:08,201 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:01:18,205 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:01:28,210 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:01:38,215 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:01:48,218 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:01:58,222 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:02:08,228 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # cat /etc/gc_fw_info
+
+2023-06-19 20:02:18,232 - logger3 - INFO - FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+2023-06-19 20:02:28,238 - logger3 - INFO - cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+2023-06-19 20:02:38,242 - logger3 - INFO - cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # cat /etc/gc_fw_info
+
+2023-06-19 20:02:48,246 - logger3 - INFO - FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # cat /etc/gc_fw_info
+
+2023-06-19 20:02:58,252 - logger3 - INFO - FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # [2067.298]=================================RX=====================================
+80 24 49 0a 00 02 00 00 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 57 e2 6e 7f 
+tId:8024(32804) DB:0 AR:1 AK:0 MT:9(Get) devId:0a meClasId:0002(onudata) meInstId:0000
+MsgType: Get
+attrMask:0x8000
+attrMask:0x8000 attrNo:1  length:1  name:MIBdatasync
+[2067.299]*********************************TX*************************************
+80 24 29 0a 00 02 00 00 00 80 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 9b 53 6f 53 
+tId:8024(32804) DB:0 AR:0 AK:1 MT:9(Get) devId:0a meClasId:0002(onudata) meInstId:0000
+MsgType: Get
+result:00(success)
+attrMask:0x8000 optnMask:0x0000 execMask:0x0000
+attrMask:0x8000 attrNo:1  length:1  name:MIBdatasync value:10 
+
+2023-06-19 20:03:08,256 - logger3 - INFO - cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+2023-06-19 20:03:18,260 - logger3 - INFO - cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # cat /etc/gc_fw_info
+
+2023-06-19 20:03:28,265 - logger3 - INFO - FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       55
+SlaveVersion    =       V01.02.01
+SlaveFakeVersion        =       v1.1.t5.0616
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       56
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 

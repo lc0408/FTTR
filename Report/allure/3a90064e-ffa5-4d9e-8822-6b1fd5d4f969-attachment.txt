@@ -1,0 +1,7 @@
+INFO     logger3:base.py:63 
+gccli consoleRedir on
+root@EGT904-H-TW:/home #
+INFO     logger3:base.py:63  gccli consoleRedir on
+console_redirect successfuly 
+root@EGT904-H-TW:/home #
+INFO     logger3:base.py:63 gccli bob fail

@@ -1,0 +1,3 @@
+INFO     logger3:base.py:63 
+INFO     logger3:base.py:63 
+INFO     logger3:base.py:63 gccli bob fail

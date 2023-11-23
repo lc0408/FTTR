@@ -1,0 +1,636 @@
+INFO     logger3:base.py:63 
+INFO     logger3:base.py:63 
+INFO     logger3:base.py:63 
+INFO     logger3:base.py:63 
+gc_omcicli dbg 7
+gc_omcicli omcilog on
+gccli consoleRedir on
+root@GTH904-TW:/home # gc_omcicli dbg 7
+root@GTH904-TW:/home # gc_omcicli omcilog on
+root@GTH904-TW:/home # gccli consoleRedir on
+console_redirect successfuly 
+root@GTH904-TW:/home #   adding: config.current.xml (deflated 92%)
+Archive:  /tmp/backup_decompress/raw_config
+  inflating: config.current.xml
+c
+INFO     logger3:base.py:63 manual-upgrade 1/6/1 gcImage0530.bin GTH904-TW
+XSM2C-1-2(config-t-ont-ugp)# show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+INFO     logger3:base.py:63 how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # [47706.413]=================================RX=====================================
+00 01 49 0a 00 07 00 00 f0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 99 47 4a 1a 
+tId:0001(1) DB:0 AR:1 AK:0 MT:9(Get) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: Get
+attrMask:0xf000
+attrMask:0x8000 attrNo:1  length:14 name:version
+attrMask:0x4000 attrNo:2  length:1  name:iscommitted
+attrMask:0x2000 attrNo:3  length:1  name:isactive
+attrMask:0x1000 attrNo:4  length:1  name:isvalid
+[47706.413]*********************************TX*************************************
+00 01 29 0a 00 07 00 00 00 f0 00 56 30 31 2e 30 30 2e 30 30 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 e4 f3 58 df 
+tId:0001(1) DB:0 AR:0 AK:1 MT:9(Get) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: Get
+result:00(success)
+attrMask:0xf000 optnMask:0x0000 execMask:0x0000
+attrMask:0x8000 attrNo:1  length:14 name:version value:56 30 31 2e 30 30 2e 30 30 00 00 00 00 00 
+attrMask:0x4000 attrNo:2  length:1  name:iscommitted value:00 
+attrMask:0x2000 attrNo:3  length:1  name:isactive value:00 
+attrMask:0x1000 attrNo:4  length:1  name:isvalid value:01 
+[47706.415]=================================RX=====================================
+00 02 53 0a 00 07 00 00 1f 02 35 25 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 a3 9a 4d 40 
+tId:0002(2) DB:0 AR:1 AK:0 MT:19(StartSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: StartSwDload
+MS InstId:00 (ONU-G)
+LS InstId:00 (Image0)
+windowSize:31 (DEC)
+imageSize:37037379 (DEC)
+[47706.423]gcomci: gcOmci_actHandle_softwareimage_startdownload()#368 expect Max ImgSize:0x7d00000 , imageSize:0x2352543
+
+[47706.423]gcomci: gcOmciMsg_common_mibDataSyncIncrease()#592 mibDataSync++
+
+killall: gcloopdetect: no process killed
+[47706.532]*********************************TX*************************************
+00 02 33 0a 00 07 00 00 00 1f 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 8b a6 99 92 
+tId:0002(2) DB:0 AR:0 AK:1 MT:19(StartSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: StartSwDload
+result:0
+windowSize:31 (DEC)
+c
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         164672         TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         3423392        TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # ca
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         6651360        TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+INFO     logger3:base.py:63 t /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+INFO     logger3:base.py:63 how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         9879328        TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         13093408       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+INFO     logger3:base.py:63 how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         16305504       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+INFO     logger3:base.py:63 cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+INFO     logger3:base.py:63 how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         19511648       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         22730688       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         25961632       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+INFO     logger3:base.py:63 cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # cat /etc/gc_fw_info
+
+INFO     logger3:base.py:63 how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         29192576       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+INFO     logger3:base.py:63 FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+INFO     logger3:base.py:63 how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         32071360       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# s
+INFO     logger3:base.py:63 cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+INFO     logger3:base.py:63 how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         35365792       TRANSFERRING_IMAGE
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       FINALIZING_TRANSFER
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # cat /etc/gc_fw_info
+
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       FINALIZING_TRANSFER
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # [47837.234]=================================RX=====================================
+3b 2a 55 0a 00 07 00 00 0d 58 d7 10 02 35 25 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 fc 9d 17 86 
+tId:3b2a(15146) DB:0 AR:1 AK:0 MT:21(EndSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: EndSwDload
+crc32:0d58d710
+imagesize:02352543 37037379(DEC)
+[47837.235]*********************************TX*************************************
+3b 2a 35 0a 00 07 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 64 03 31 54 
+tId:3b2a(15146) DB:0 AR:0 AK:1 MT:21(EndSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: EndSwDload
+result:6(devBusy)
+[gccheckheader.c:722][main]:Upgrade file name: /tmp/gc_omciSoftware.img 
+[gccheckheader.c:540][get_encryption_upgrade_config]:InternetGatewayDevice.DeviceInfo FirmwareEncryptionUpgrade 0
+[gccheckheader.c:569][firmware_decryption]:*** Notice *** Do not decrypt firmware
+[gccheckheader.c:289][getCurrentFlashSize]:Current running Flash size: 0xfa00000
+[gccheckheader.c:262][getCurrentMtdDev]:Current running mtd device: /dev/mtdblock5
+Copied 48 bytes from address 0x00000000 in flash to /var/iHeader
+Copied 40 bytes from address 0x01e5b000 in flash to /var/iHeader
+[gccheckheader.c:351][getCurrentImageSequence]:getCurrentImageSequence,351:fdt_header.magic=0xd00dfeed,
+Copied 160 bytes from address 0x023524a3 in flash to /var/iHeader
+[gccheckheader.c:983][main]:Firmware check success
+wrapperSoftwareWriteToFlash()#467 cmd=gcupgrade -i /tmp/gc_omciSoftware.img
+[gcupgrade.c:76][getCurrentFlashSize]:Current running Flash size: 0xfa00000
+[gcupgrade.c:501][main]:image_type=0,image_cnt=1 
+[gcupgrade.c:603][main]:image_type=0 
+[gcupgrade.c:49][getCurrentMtdDev]:Current running mtd device: /dev/mtdblock5
+[libgcfwupdate.c:113][getRootfsMtdNumber]:rootfs1 MTD Number=2, rootfs2 MTD Number=5
+[gcupgrade.c:111][writeSlaveMtdDev]:Slave mtd: /dev/mtd2
+[gcupgrade.c:112][writeSlaveMtdDev]:Slave mtd device: /dev/mtdblock2
+Erased 76152832 bytes from address 0x00000000 in flash
+...............................................................................................................................................................................................................................................................................................................................................................................................................................................................
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       FINALIZING_TRANSFER
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # ..............[47847.233]=================================RX=====================================
+3b 2b 55 0a 00 07 00 00 0d 58 d7 10 02 35 25 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 e6 e1 cf 3f 
+tId:3b2b(15147) DB:0 AR:1 AK:0 MT:21(EndSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: EndSwDload
+crc32:0d58d710
+imagesize:02352543 37037379(DEC)
+[47847.234]gcomci: gcOmci_actHandle_softwareimage_enddownload()#648 Flash Writing
+[47847.234]*********************************TX*************************************
+3b 2b 35 0a 00 07 00 00 06 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 07 da 0e b9 
+tId:3b2b(15147) DB:0 AR:0 AK:1 MT:21(EndSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: EndSwDload
+result:6(devBusy)
+........................................................................................................[gcupgrade.c:142][writeSlaveMtdDev]:nRead=9539,mtd.writesize=2048, padLen=701
+[gcupgrade.c:153][writeSlaveMtdDev]:Write Image sucessfully,nWriteLen=37038080, length=37037379, padLen=701
+[gcupgrade.c:158][writeSlaveMtdDev]:Writed 37037379 bytes from address 0x00000000 in flash
+[gcupgrade.c:620][main]:Firmware upgrade completely
+c
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       FINALIZING_TRANSFER
+XSM2C-1-2(config-t-ont-ugp)# 
+INFO     logger3:base.py:63 at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock5
+BackupImage     =       /dev/mtdblock2
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       57
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       58
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # [47857.233]=================================RX=====================================
+3b 2c 55 0a 00 07 00 00 0d 58 d7 10 02 35 25 43 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 ae 14 97 10 
+tId:3b2c(15148) DB:0 AR:1 AK:0 MT:21(EndSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: EndSwDload
+crc32:0d58d710
+imagesize:02352543 37037379(DEC)
+[47857.275]gcomci: gcOmciMsg_common_mibDataSyncIncrease()#592 mibDataSync++
+
+[47857.307]*********************************TX*************************************
+3b 2c 35 0a 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 02 5f e0 2d 
+tId:3b2c(15148) DB:0 AR:0 AK:1 MT:21(EndSwDload) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: EndSwDload
+result:0(success)
+[47857.309]=================================RX=====================================
+3b 2d 56 0a 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 f5 85 e5 0c 
+tId:3b2d(15149) DB:0 AR:1 AK:0 MT:22(ActiveSw) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: ActiveSw
+[47857.309]gcomci: gcOmciMsg_common_mibDataSyncIncrease()#592 mibDataSync++
+
+gcOmci_actHandle_softwareimage_activateimage()#770 send GC_OMCI_EVENT_REBOOT
+[47857.309]*********************************TX*************************************
+3b 2d 36 0a 00 07 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 28 7b 8d 78 84 
+tId:3b2d(15149) DB:0 AR:0 AK:1 MT:22(ActiveSw) devId:0a meClasId:0007(softwareimage) meInstId:0000
+MsgType: ActiveSw
+result:0(success)
+[47857.319]gcomci: gcOmci_NetlinkEventHandle()#238 Get netlink event: link down
+
+47857.319 /sbin/gcs_task[gcsTask_event_wan.c:eventWan_physicalLink_handler:905]--xmlShm init success.
+
+[47857.330]gcomci: wrapperPhysicalLayerLinkEventSend()#1954 send gcs event:GCS_EVENT_WAN_LINK_DOWN notify SUCCESS.
+
+[47857.330]gcomci: gcOmciCommon_ledCtrl()#314 gponStatus:1
+
+[47857.330]gcomci: gcOmciCommon_ledCtrl()#370 wait one second to decide to open pon los
+
+47857.394 /sbin/gcs_task[gcsTask_event_wan.c:wanDelCpuMacRule:1183]--wanipv4IPv6 NULL
+
+[47858.104]gcomci: gcOmci_FlowOperationActionForLinkStatusChange()#8329 pon link down,clear rules!!!
+
+[47858.104]gcomci: gcOmci_TcontInfoConfigResetInitForList()#599 clear omci tcont config list!!!
+
+[47858.128]gcomci: gcOmci_Multicast_AccessControlRule_Clear()#4425 DynamicAccessControl List is empty
+
+[47858.128]gcomci: gcOmci_Multicast_AccessControlRule_Clear()#4425 DynamicAccessControl List is empty
+
+[47858.128]gcomci: gcOmci_Multicast_AccessControlRule_Clear()#4425 DynamicAccessControl List is empty
+
+[47858.128]gcomci: gcOmci_Multicast_AccessControlRule_Clear()#4425 DynamicAccessControl List is empty
+
+[47858.128]gcomci: gcOmci_Multicast_AccessControlRule_Clear()#4425 DynamicAccessControl List is empty
+
+receive GC_OMCI_EVENT_REBOOT 
+[47863.138]gcomci: gcOmci_onuReboot()#133 
+[47863.138]gcomci: gcOmci_onuReboot()#134  System Rebooting .....
+[47863.138]gcomci: gcOmci_onuReboot()#135 
+
+INFO     logger3:base.py:63 show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : IN_PROGRESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       ACTIVATING
+XSM2C-1-2(config-t-ont-ugp)#

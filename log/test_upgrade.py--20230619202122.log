@@ -1,0 +1,39 @@
+2023-06-19 20:21:28,165 - logger3 - INFO - 
+2023-06-19 20:21:28,166 - logger3 - INFO - anual-upgrade 1/6/1 gcImage0530.bin GTH904-TW
+                     ^
+Error: Bad command
+XSM2C-1-2(config-t)# 
+2023-06-19 20:21:38,173 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2(config-t)# show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2(config-t)# s
+2023-06-19 20:21:48,179 - logger3 - INFO - how interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2(config-t)# 
+2023-06-19 20:21:58,184 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2(config-t)# 
+2023-06-19 20:22:08,187 - logger3 - INFO - show interface gpon-olt 1/6 ont-upgrade status
+xgpon:
+overall_status : SUCCESS
+file_size_in_bytes : 37037379
+ONT       Transmit       Status
+1         37037379       SUCCESS
+XSM2C-1-2(config-t)# s

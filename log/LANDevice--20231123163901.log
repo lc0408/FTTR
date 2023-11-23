@@ -1,0 +1,25 @@
+2023-11-23 16:39:01,883 - logger3 - INFO -  ls -l
+-rw-r--r--    1 root     root             6 Nov 23 16:10 TZ
+prw-------    1 root     root             0 Nov 23 16:16 app_dns.fifo
+-rw-rw-rw-    1 root     root            11 Nov 23 16:11 b01odmv3.krnlmod
+-rw-r--r--    1 root     root             2 Nov 23 16:10 boot.devstyle
+prw-------    1 cloudcli root             0 Nov 23 16:38 cloudclient.fifo
+-rw-rw-rw-    1 cloudcli root             6 Nov 23 16:38 com.ctc.cloudclient1.owner
+-rw-r--r--    1 root     root           208 Nov 23 16:11 dnsproxy.conf
+-rw-rw-rw-    1 root     root             0 Nov 23 16:11 handlemod.error
+-rw-r--r--    1 root     root          1774 Nov 23 16:11 ipt4ntwkacc
+drwxrwxrwx    2 root     root            40 Jan  1  1970 lock
+-rw-r--r--    1 root     root            46 Nov 23 16:11 resolv.conf
+-rw-r--r--    1 root     root             0 Nov 23 16:10 resolv.conf.auto
+drwxrwxrwx    2 root     root            40 Jan  1  1970 run
+drwxrwxrwt    2 root     root            40 Jan  1  1970 shm
+drwxrwxrwx    2 root     root            40 Jan  1  1970 state
+drwxr-xr-x    2 root     root            80 Jan  1  1970 sysinfo
+-rwxrwxrwx    1 root     root         53080 Nov 23 16:14 testserver
+-rw-r--r--    1 root     root         10666 Nov 23 16:38 testserver.conf
+drwxr-xr-x    3 root     root            60 Nov 23 16:11 usr
+root@SAF:/tmp#
+2023-11-23 16:39:01,953 - logger3 - INFO -  2023-11-23 16:38:59.643 [INFO] (abi) <- {"Ack":"GetProperitesOfSubObjects","ID":"30e06488-efd0-484f-ac63-236061eb802b","Status":"0","InterfaceName":"com.ctc.igd1.LANHost","Params":[{"ObjectPath":"/com/ctc/igd1/Config/LANHosts/1","Properties":[{"MAC":"EC6073F5CAD3"},{"HostName":"PC"},{"ControlStatus":false},{"InternetAccess":2},{"StorageAccess":true},{"MaxUSBandwidth":0},{"MaxDSBandwidth":0},{"DevType":"PC"},{"IP":"192.168.1.65"},{"IPv6":""},{"ConnectionType":0},{"Port":1},{"Brand":""},{"Model":""},{"OS":""},{"Active":true},{"LatestActiveTime":"1700726999"},{"LatestInactiveTime":"1700720186"},{"OnlineTime":1740},{"RxBytes":0},{"TxBytes":62640},{"PowerLevel":0},{"DeviceOnlineNofication":false},{"NegoRate":1000000},{"DevName":""}]},{"ObjectPath":"/com/ctc/igd1/Config/LANHosts/2","Properties":[{"MAC":"E00CE5559EA5"},{"HostName":""},{"ControlStatus":false},{"InternetAccess":2},{"StorageAccess":true},{"MaxUSBandwidth":0},{"MaxDSBandwidth":0},{"DevType":"elink"},{"IP":"192.168.1.2"},{"IPv6":""},{"ConnectionType":2},{"Port":5},{"Brand":"CT2023"},{"Model":"E00CE5"},{"OS":""},{"Active":false},{"LatestActiveTime":"-1"},{"LatestInactiveTime":"1700726654"},{"OnlineTime":0},{"RxBytes":0},{"TxBytes":0},{"PowerLevel":0},{"DeviceOnlineNofication":true},{"NegoRate":2500000},{"DevName":""}]},{"ObjectPath":"/com/ctc/igd1/Config/LANHosts/3","Properties":[{"MAC":"480FCF45782F"},{"HostName":"L29707A"},{"ControlStatus":false},{"InternetAccess":2},{"StorageAccess":true},{"MaxUSBandwidth":0},{"MaxDSBandwidth":0},{"DevType":"PC"},{"IP":"192.168.1.2"},{"IPv6":""},{"ConnectionType":0},{"Port":4},{"Brand":"ÆäËü"},{"Model":"Windows 7"},{"OS":"windows"},{"Active":true},{"LatestActiveTime":"1700726999"},{"LatestInactiveTime":"1700720192"},{"OnlineTime":1740},{"RxBytes":1001947},{"TxBytes":863178},{"PowerLevel":0},{"DeviceOnlineNofication":false},{"NegoRate":1000000},{"DevName":""}]}],"SequenceId":"1234ABCD"} (1870)
+
+root@SAF:/tmp#
+2023-11-23 16:39:01,954 - logger3 - INFO - Successful

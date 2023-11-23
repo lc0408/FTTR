@@ -1,0 +1,11 @@
+INFO     logger3:base.py:63  gc_omcicli omcilog on
+gccli consoleRedir on
+root@GTH904-TW:/home #
+INFO     logger3:base.py:63 brief-show slot 3 interface gpon-olt 1/11 ont-upgrade-status
+ONT       Status         
+2         SUCCESS        
+
+P3608#
+INFO     logger3:base.py:63 brief-show slot 3 interface gpon-olt 1/11 ont 2 brief
+
+P3608#

@@ -1,0 +1,23 @@
+INFO     logger3:base.py:63  ls -l
+-rw-r--r--    1 root     root             6 Nov 23 16:10 TZ
+prw-------    1 root     root             0 Nov 23 16:16 app_dns.fifo
+-rw-rw-rw-    1 root     root            11 Nov 23 16:11 b01odmv3.krnlmod
+-rw-r--r--    1 root     root             2 Nov 23 16:10 boot.devstyle
+prw-------    1 cloudcli root             0 Nov 23 16:39 cloudclient.fifo
+-rw-rw-rw-    1 cloudcli root             6 Nov 23 16:39 com.ctc.cloudclient1.owner
+-rw-r--r--    1 root     root           208 Nov 23 16:11 dnsproxy.conf
+-rw-rw-rw-    1 root     root             0 Nov 23 16:11 handlemod.error
+-rw-r--r--    1 root     root          1774 Nov 23 16:11 ipt4ntwkacc
+drwxrwxrwx    2 root     root            40 Jan  1  1970 lock
+-rw-r--r--    1 root     root            46 Nov 23 16:11 resolv.conf
+-rw-r--r--    1 root     root             0 Nov 23 16:10 resolv.conf.auto
+drwxrwxrwx    2 root     root            40 Jan  1  1970 run
+drwxrwxrwt    2 root     root            40 Jan  1  1970 shm
+drwxrwxrwx    2 root     root            40 Jan  1  1970 state
+drwxr-xr-x    2 root     root            80 Jan  1  1970 sysinfo
+-rwxrwxrwx    1 root     root         53080 Nov 23 16:14 testserver
+-rw-r--r--    1 root     root         14319 Nov 23 16:39 testserver.conf
+drwxr-xr-x    3 root     root            60 Nov 23 16:11 usr
+root@SAF:/tmp#
+INFO     logger3:base.py:63  kill -USR1 `pidof testserver`
+root@SAF:/tmp#

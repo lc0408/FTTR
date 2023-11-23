@@ -1,0 +1,30 @@
+2023-06-06 19:07:05,129 - logger3 - INFO - brief-show slot 3 interface gpon-olt 1/11 ont-upgrade-status
+ONT       Status         
+2         SUCCESS        
+
+P3608#
+2023-06-06 19:07:05,482 - logger3 - INFO - brief-show slot 3 interface gpon-olt 1/11 ont 2 brief
+ONT brief:
+Port ID                     :11  
+Ont ID                      :2   
+Primary state               :active                     
+Admin state                 :unlock                     
+optical state               :enable                     
+Operational state           :enable                     
+Vendor ID                   :H3CT                       
+Equipment ID                :GTH904-TW                  
+Vendor Product Code         :0                          
+Main Software Version       :V01.00.00                  
+Secondary Software Version  :V01.00.00                  
+Sys Up Time                 :0 days 0h:04m:40s
+        
+Serial Number               :H3CT8A3365A2               
+Mac Limit                   :0                          
+Connectivity Capability     :0x7f                         
+flow profile                :1                          
+t-cont bind profile         :1                          
+service type                :n_1                        
+t-cont vport bind type      :profile-based              
+RTD(m)                      :21
+
+P3608#

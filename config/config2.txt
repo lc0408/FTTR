@@ -1,0 +1,8 @@
+{ "RPCMethod": "GetProperitesOfSubObjects",
+"MAC":"8048A58BF7A6",
+"ID": "30e06488-efd0-484f-ac63-236061eb802b",
+"SequenceId": "1234ABCD",
+    "ServiceName": "com.ctc.igd1",
+"InterfaceName":"com.ctc.igd1.LANHost",
+"ObjectPath": "/com/ctc/igd1/Config/LANHosts"
+}

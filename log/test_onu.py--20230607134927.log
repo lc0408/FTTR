@@ -1,0 +1,8 @@
+2023-06-07 13:55:33,886 - logger3 - INFO - brief-show slot 3 interface gpon-olt 1/11 ont-upgrade-status
+ONT       Status         
+2         SUCCESS        
+
+P3608#
+2023-06-07 13:55:33,928 - logger3 - INFO - brief-show slot 3 interface gpon-olt 1/11 ont 2 brief
+
+P3608#

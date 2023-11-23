@@ -1,0 +1,33 @@
+2023-11-22 17:41:36,844 - logger3 - INFO -  ls -l
+-rw-r--r--    1 root     root             6 Jan  1  1970 TZ
+-rw-rw-rw-    1 root     root            24 Jan  1  1970 app-ins-def.conf
+prw-------    1 root     root             0 Nov 22 15:59 app_dns.fifo
+-rw-rw-rw-    1 root     root          4348 Jan  1  1970 appmgr.dbus.conf
+-rw-rw-rw-    1 root     root            11 Jan  1  1970 b01odmv3.krnlmod
+-rw-r--r--    1 root     root             2 Jan  1  1970 boot.devstyle
+prw-------    1 cloudcli root             0 Nov 22 17:41 cloudclient.fifo
+-rw-rw-rw-    1 cloudcli root             6 Nov 22 17:41 com.ctc.cloudclient1.owner
+-rw-------    1 root     root        696320 Nov 22 17:04 core-testserver
+-rw-rw-rw-    1 uhttpd   root            12 Jan  1  1970 curhostip
+-rw-rw-rw-    1 root     root           182 Jan  1  1970 dnsproxy.conf
+-rw-rw-rw-    1 root     root             0 Jan  1  1970 handlemod.error
+-rw-rw-rw-    1 root     root          1698 Jan  1  1970 ipt4ntwkacc
+drwxrwxrwx    2 root     root            40 Jan  1  1970 lock
+-rw-------    1 uhttpd   root         43136 Nov 22 16:00 luci-indexcache
+drwxrwxrwx    2 uhttpd   root           320 Jan  1  1970 luci-modulecache
+-rw-rw-rw-    1 root     root            46 Jan  1  1970 resolv.conf
+-rw-r--r--    1 root     root             0 Jan  1  1970 resolv.conf.auto
+drwxrwxrwx    2 root     root            40 Jan  1  1970 run
+drwxrwxrwt    2 root     root            40 Jan  1  1970 shm
+drwxrwxrwx    2 root     root            40 Jan  1  1970 state
+drwxr-xr-x    2 root     root            80 Jan  1  1970 sysinfo
+-rwxrwxrwx    1 root     root         53080 Nov 22 17:34 testserver
+-rw-r--r--    1 root     root         12243 Nov 22 17:41 testserver.conf
+drwxr-xr-x    3 root     root            60 Jan  1  1970 usr
+root@SAF:/tmp#
+2023-11-22 17:41:36,865 - logger3 - INFO -  kill -USR1 `pidof testserver`
+
+2023-11-22 17:41:25.371 [INFO] got sig 10 [cloud server send test msg]
+2023-11-22 17:41:25.371 [ERROR] test msg "{'RPCMethod': 'SetPluginParams', 'ID': '1234ABCD', 'Plugin_Name': 'com.chinatelecom.all.smartgateway.xrobotv3_CT202309', 'Version': '1.0.0', 'Parameter': 'eydDbWRUeXBlJzogJ1hfVklYVEVMX1Rlc3RUYXNrTm90aWZ5JywgJ1NlcXVlbmNlSWQnOiAnNDQ0NDQ0NDQnLCAnZGF0YSc6IHsnaWQnOiA4MCwgJ21ldGhvZCc6ICdYX1ZJWFRFTF9UZXN0VGFza05vdGlmeScsICdwYXJhbXMnOiB7J1BhcmFtZXRlckxpc3QnOiB7J2RldmljZUlkJzogJzBCMTIwQUM4Njk1QkRBRkQnLCAncGFyYW1ldGVyJzogeydjbG91ZFRlc3QnOiAxLCAncHJpb3JpdHknOiAwLCAnZGVmYXVsdFZhbHVlJzogeyd0aHJvdWdocHV0JzogMCwgJ3RvdGFsVGltZSc6IDB9LCAnZGVwZW5kVGVzdElkJzogMCwgJ2Rlc2NyaXB0aW9uJzogJycsICduYW1lJzogJzEnLCAnb3V0cHV0VHlwZSc6IDIsICdvdXRwdXRGYWlsUmV0cnknOiAzLCAnb3V0cHV0TWlycm9yQWRkcic6ICcxMDEuODkuMTg2LjE3MTo3ODkwJywgJ3Jlc3VsdFByb3BlcnR5JzogMCwgJ3NjaGVkdWxlVHlwZSc6IDAsICd0YXNrQmVnaW5UaW1lJzogMCwgJ3Rhc2tFeGVjdXRlQ291bnQnOiAzLCAndGFza0lkJzogMSwgJ3Rhc2tJbnRlcnZhbCc6IDMwMDAwMDAwMCwgJ3Rhc2tMaWZlVGltZSc6IDAsICd0YXNrUmVzTGltaXQnOiAnJywgJ3Rhc2tTdGF0dXMnOiAyLCAndGFza1N0ZXAnOiAwLCAnaXNSYW5kb20nOiAwLCAndGVzdElkJzogMjAxLCAndGVzdFBhcmFtZXRlcic6IHsnYW5hbHlzaXNIdG1sJzogMSwgJ2l0ZW1UaW1lb3V0VGltZSc6IDEwMDAwMDAwLCAnbWF4TG9hZFRpbWUnOiAzMDAwMDAwMCwgJ21heFN1YkNvdW50JzogNTAwLCAnbWF4U3ViU2F2ZUNvdW50JzogNTAsICdtaW5Mb2FkUGVyY2VudCc6IDIwLCAncHJpbWFyeVJlc3VsdEluZGV4JzogMSwgJ3VzZXJBZ2VudCc6ICdNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNzYuMC4zODA5LjEzMiBTYWZhcmkvNTM3LjM2JywgJ3ZhbGlkUmVzcG9uc2VDb2Rlcyc6ICcyMDAsMjAxLDIwMiwyMDMsMjA0LDIwNSwyMDYsMzAwLDMwMSwzMDIsMzAzLDMwNCwzMDUsMzA2LDMwNyd9LCAndGVzdFRpbWVvdXQnOiA2MDAwMDAwMCwgJ3Rlc3RUeXBlJzogMTF9LCAncmVzb3VyY2VzJzogW3snZGVzdEdyb3VwSWQnOiAxLCAnZGVzdE5vZGVJZCc6IDMsICdkZXN0Tm9kZUlwJzogJ2h0dHBzOi8vd3d3LmJhaWR1LmNvbS8nLCAnaWQnOiA4NjgsICdzb3VyY2VHcm91cElkJzogMCwgJ3NvdXJjZU5vZGVJZCc6IDE4fV0sICdyZXNvdXJjZXNOdW1iZXInOiAxfX0sICd2ZXJzaW9uJzogMn19'}
+" invaild
+root@SAF:/tmp#

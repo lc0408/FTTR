@@ -1,0 +1,4 @@
+INFO     logger3:base.py:63  2023-11-23 19:23:02.931 [INFO] (abi) <- {"Result":0,"Ack":"SetPluginParams","ID":"1234ABCD","return_Parameter":"eyJDbWRUeXBlIjoiWF9WSVhURUxfVGVzdFRhc2tOb3RpZnkiLCJTZXF1ZW5jZUlkIjoiNDQ0NDQ0NDQiLCJTdGF0dXMiOjB9"} (170)
+
+root@SAF:/tmp#
+INFO     logger3:base.py:63 Successful

@@ -1,0 +1,7 @@
+2023-06-25 19:35:02,829 - logger3 - INFO - 
+gccli consoleRedir on
+root@EGT904-H-TW:/home #
+2023-06-25 19:35:02,831 - logger3 - INFO -  gccli consoleRedir on
+console_redirect successfuly 
+root@EGT904-H-TW:/home #
+2023-06-25 19:35:02,832 - logger3 - INFO - gccli bob fail

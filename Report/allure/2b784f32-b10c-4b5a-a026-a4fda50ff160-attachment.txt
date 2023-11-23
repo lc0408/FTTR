@@ -1,0 +1,6 @@
+INFO     logger3:base.py:63  ./testserver: error while loading shared libraries: libubox.so: cannot open shared object file: No such file or directory
+tftp -g -r testserver.conf 192.168.1.65
+[1]+  Done(127)                  ./testserver
+#
+INFO     logger3:base.py:63  
+#

@@ -1,0 +1,40 @@
+# cloud msg
+Boot={"Result":0,"BizPlat":[{"ServerAddr":"192.168.1.1","ServerPort":7777}]}
+Activate={"Result":0,"DevToken":"TEST_TOKEN","DevID":"TEST_ID"}
+Connect={"Result":0,"SKey":"12345678AABBCCDD"}
+GetChallengeCode={"Result":0,"ChallengeCode":"00112233445566778899AABBCCDDEEFF"}
+Heartbeat={"Result":0}
+QueryDependencyURL={"Result":0,"URLS":[{"test_1_depend":"http://192.168.0.2/test_1_depend_1.0.0_zx279127.ipk"},{"test_2_depend":"http://192.168.0.2/test_2_depend_1.0.0_zx279127.ipk"}]}
+QueryNewVersion={"Status":"0","Mode":"7","DownURL":"http://192.168.0.2/cloudclient_CC2.0_CT_ZX279127_R2070_zx279127.ipk"}
+Notification={"Result":0}
+#elink msg
+keyngreq={"type":"keyngack","keymode":"dh"}
+dh={"type":"dh"}
+dev_reg={"type":"ack"}
+keepalive={"type":"ack"}
+dev_report={"type":"ack"}
+wan_report={"type":"ack"}
+# test msg
+cloud={"RPCMethod":"SetPluginParams","ID":"1234ABCD","Plugin_Name":"eLinkAP","Version":"","Parameter":"eyJDbWRUeXBlIjoiWF9WSVhURUxfVGVzdFRhc2tOb3RpZnkiLCJTZXF1ZW5jZUlkIjoiNDQ0NDQ0NDQiLCJkYXRhIjp7ImlkIjo4MCwibWV0aG9kIjoiWF9WSVhURUxfVGVzdFRhc2tOb3RpZnkiLCJwYXJhbXMiOnsiUGFyYW1ldGVyTGlzdCI6eyJkZXZpY2VJZCI6IjBCMTIwQUM4Njk1QkRBRkQiLCJwYXJhbWV0ZXIiOnsiY2xvdWRUZXN0IjoxLCJkZWZhdWx0VmFsdWUiOnsidGhyb3VnaHB1dCI6MCwidG90YWxUaW1lIjowfSwiZGVwZW5kVGVzdElkIjowLCJkZXNjcmlwdGlvbiI6IiIsIm5hbWUiOiIxIiwib3V0cHV0VHlwZSI6Miwib3V0cHV0RmFpbFJldHJ5IjozLCJvdXRwdXRNaXJyb3JBZGRyIjoiMTAxLjg5LjE4Ni4xNzE6Nzg5MCIsInJlc3VsdFByb3BlcnR5IjozLCJzY2hlZHVsZVR5cGUiOjAsInRhc2tCZWdpblRpbWUiOjAsInRhc2tFeGVjdXRlQ291bnQiOjAsInRhc2tJZCI6MSwidGFza0ludGVydmFsIjozNjAwMDAwMDAwLCJ0YXNrTGlmZVRpbWUiOjAsInRhc2tSZXNMaW1pdCI6IiIsInRhc2tTdGF0dXMiOjIsInRhc2tTdGVwIjowLCJ0ZXN0SWQiOjExMTExMTEsInRlc3RQYXJhbWV0ZXIiOnsiYW5hbHlzaXNIdG1sIjoxLCJpdGVtVGltZW91dFRpbWUiOjEwMDAwMDAwLCJtYXhMb2FkVGltZSI6MzAwMDAwMDAsIm1heFN1YkNvdW50Ijo1MDAsIm1heFN1YlNhdmVDb3VudCI6NTAsIm1pbkxvYWRQZXJjZW50Ijo5MCwicHJpbWFyeVJlc3VsdEluZGV4IjoxLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzQuMCAoY29tcGF0aWJsZTsgTVNJRSA2LjA7IFdpbmRvd3MgTlQgNS4xOyBUcmlkZW50LzQuMDspIiwidmFsaWRSZXNwb25zZUNvZGVzIjoiMjAwLDIwMSwyMDIsMjAzLDIwNCwyMDUsMjA2LDMwMCwzMDEsMzAyLDMwMywzMDQsMzA1LDMwNiwzMDcifSwidGVzdFRpbWVvdXQiOjYwMDAwMDAwLCJ0ZXN0VHlwZSI6MTF9LCJyZXNvdXJjZXMiOlt7ImRlc3RBdHRyaWJ1dGVzIjp7Imh0dHBEb3dubG9hZFVybCI6IiJ9LCJkZXN0R3JvdXBJZCI6MSwiZGVzdE5vZGVJZCI6MywiZGVzdE5vZGVJcCI6Imh0dHBzOi8vZGl0dS5zby5jb20vIiwiaWQiOjg2OCwic291cmNlR3JvdXBJZCI6MCwic291cmNlTm9kZUlkIjoxOH0seyJkZXN0QXR0cmlidXRlcyI6eyJodHRwRG93bmxvYWRVcmwiOiIifSwiZGVzdEdyb3VwSWQiOjEsImRlc3ROb2RlSWQiOjMsImRlc3ROb2RlSXAiOiJodHRwczovL3d3dy5pY29sb3IuY29tLmNuL21laXR1IiwiaWQiOjg2OCwic291cmNlR3JvdXBJZCI6MCwic291cmNlTm9kZUlkIjoxOH0seyJkZXN0QXR0cmlidXRlcyI6eyJodHRwRG93bmxvYWRVcmwiOiIifSwiZGVzdEdyb3VwSWQiOjEsImRlc3ROb2RlSWQiOjMsImRlc3ROb2RlSXAiOiJodHRwczpodHRwOi8vc2VsbGVyLmdvbmdjaGFuZy5jb20vIiwiaWQiOjg2OCwic291cmNlR3JvdXBJZCI6MCwic291cmNlTm9kZUlkIjoxOH0seyJkZXN0QXR0cmlidXRlcyI6eyJodHRwRG93bmxvYWRVcmwiOiIifSwiZGVzdEdyb3VwSWQiOjEsImRlc3ROb2RlSWQiOjMsImRlc3ROb2RlSXAiOiJodHRwczovL3d3dy5jZHN0bS5jbi9mcm9udGllci8iLCJpZCI6ODY4LCJzb3VyY2VHcm91cElkIjowLCJzb3VyY2VOb2RlSWQiOjE4fSx7ImRlc3RBdHRyaWJ1dGVzIjp7Imh0dHBEb3dubG9hZFVybCI6IiJ9LCJkZXN0R3JvdXBJZCI6MSwiZGVzdE5vZGVJZCI6MywiZGVzdE5vZGVJcCI6Imh0dHA6Ly93d3cuY25iZXRhLmNvbS9jYXRlZ29yeS9tb3ZpZS5odG0iLCJpZCI6ODY4LCJzb3VyY2VHcm91cElkIjowLCJzb3VyY2VOb2RlSWQiOjE4fSx7ImRlc3RBdHRyaWJ1dGVzIjp7Imh0dHBEb3dubG9hZFVybCI6IiJ9LCJkZXN0R3JvdXBJZCI6MSwiZGVzdE5vZGVJZCI6MywiZGVzdE5vZGVJcCI6Imh0dHBzOi8vaGFpbWFpLmFtYXpvbi5jbi8iLCJpZCI6ODY4LCJzb3VyY2VHcm91cElkIjowLCJzb3VyY2VOb2RlSWQiOjE4fSx7ImRlc3RBdHRyaWJ1dGVzIjp7Imh0dHBEb3dubG9hZFVybCI6IiJ9LCJkZXN0R3JvdXBJZCI6MSwiZGVzdE5vZGVJZCI6MywiZGVzdE5vZGVJcCI6Imh0dHBzOi8vaG9tZS5jbmJsb2dzLmNvbS8iLCJpZCI6ODY4LCJzb3VyY2VHcm91cElkIjowLCJzb3VyY2VOb2RlSWQiOjE4fSx7ImRlc3RBdHRyaWJ1dGVzIjp7Imh0dHBEb3dubG9hZFVybCI6IiJ9LCJkZXN0R3JvdXBJZCI6MSwiZGVzdE5vZGVJZCI6MywiZGVzdE5vZGVJcCI6Imh0dHA6Ly9saXZlLmJpbGliaWxpLmNvbS8iLCJpZCI6ODY4LCJzb3VyY2VHcm91cElkIjowLCJzb3VyY2VOb2RlSWQiOjE4fSx7ImRlc3RBdHRyaWJ1dGVzIjp7Imh0dHBEb3dubG9hZFVybCI6IiJ9LCJkZXN0R3JvdXBJZCI6MSwiZGVzdE5vZGVJZCI6MywiZGVzdE5vZGVJcCI6Ind3dy50bWFsbC5jb20iLCJpZCI6ODY4LCJzb3VyY2VHcm91cElkIjowLCJzb3VyY2VOb2RlSWQiOjE4fSx7ImRlc3RBdHRyaWJ1dGVzIjp7Imh0dHBEb3dubG9hZFVybCI6IiJ9LCJkZXN0R3JvdXBJZCI6MSwiZGVzdE5vZGVJZCI6MywiZGVzdE5vZGVJcCI6Imh0dHBzOi8vY2hhb3NoaS50bWFsbC5jb20vIiwiaWQiOjg2OCwic291cmNlR3JvdXBJZCI6MCwic291cmNlTm9kZUlkIjoxOH1dLCJyZXNvdXJjZXNOdW1iZXIiOjEwfX0sInZlcnNpb24iOjJ9fQo="}
+
+#elink={"action":"connect","token":"test_token_2048","post_url":"http://106.14.169.181:2200/gamespeeder","dial_max_time":60,"idle_max_time":300}
+#elink={"RequestOper":"SetSecurityParams","Parameter":{"BaselineType":"FIRMWARE_INFO,PROCESS_INFO,PORT_INFO,PLUGIN_INFO","Instant":"1","Interval":"7200"}}
+#elink={"type":"get_status","get":[{"name":"wifi"},{"name":"wifiswitch"},{"name":"ledswitch"},{"name":"wpsswitch"},{"name":"syncswitch"},{"name":"wifitimer"},{"name":"bandsupport"},{"name":"cpurate"},{"name":"memoryuserate"},{"name":"uploadspeed"},{"name":"downloadspeed"},{"name":"wlanstats"},{"name":"channel"},{"name":"onlineTime"},{"name":"terminalNum"},{"name":"load"},{"name":"real_devinfo"},{"name":"elinkstat"},{"name":"neighborinfo"},{"name":"networktype"},{"name":"workmode"},{"name":"webServer"},{"name":"netstatPorts"},{"name":"flashStat"},{"name":"mapInfo"},{"name":"mapTopology"},{"name":"ethWanPortIndex"},{"name":"ethLanPortIndex"},{"name":"channelQuality"},{"name":"capability"}]}
+#elink={"type":"get_status","get":[{"name":"wifi"}]}
+#elink={"type":"get_status","get":[{"name":"neighborinfo"}]}
+#elink={"type":"get_status","get":[{"name":"real_devinfo"}]}
+#elink={"type":"get_status","get":[{"name":"mapInfo"}]}
+elink={"type":"dbus_set","ServiceName":"com.ctc.igd1","Params":[{"ObjectPath":"/com/ctc/igd1/Config/LANHosts/1","InterfaceName":"com.ctc.igd1.LANHost", "Properties":[{"DevName":"test_4"}]}]}
+elink={"type":"dbus_get","ServiceName":"com.ctc.igd1","Params":[{"ObjectPath":"/com/ctc/igd1/Info/PON","InterfaceName":"com.ctc.igd1.PONInfo","Properties":[]}]}
+elink={"type":"dbus_call","ServiceName":"com.ctc.igd1","ObjectPath":"/com/ctc/igd1/Telecom/System","InterfaceName":"com.ctc.igd1.SysCmd", "MethodName":"CheckLOID","Params":[]}
+#elink={"type":"get_status","get":[{"name":"channelQuality"}]}
+#elink={"type":"get_status","get":[{"name":"capability"}]}
+#elink={"type":"get_status","get":[{"name":"capability"}]}
+#elink={"type":"cfg","set":{"ctrlcommand":"reboot"}}
+#elink={"type":"cfg","set":{"wifi":[{"radio":{"mode":"2.4G","channel":0},"ap":[{"apidx":0,"ssid":"ChinaNet-TEST","key":"12345678","auth":"wpapskwpa2psk","encrypt":"aes"}]},{"radio":{"mode":"5G","channel":0},"ap":[{"apidx":0,"ssid":"ChinaNet-TEST_5G","key":"12345678","auth":"wpapskwpa2psk","encrypt":"aes"}]}]},"status":{"wifi":[{"radio":{"mode":"2.4G","channel":0}},{"radio":{"mode":"5G","channel":0}}]}}
+#elink={"type":"cfg","set":{"wifi":[{"radio":{"mode":"2.4G","channel":0},"ap":[{"apidx":0,"ssid":"TEST","key":"12345678","auth":"wpapskwpa2psk","encrypt":"aes"}]},{"radio":{"mode":"5G","channel":0},"ap":[{"apidx":0,"ssid":"TEST_5G","key":"12345678","auth":"wpapskwpa2psk","encrypt":"aes"}]}]},"status":{"wifi":[{"radio":{"mode":"2.4G","channel":0}},{"radio":{"mode":"5G","channel":0}}]}}
+#elink={"type":"cfg","set":{"wifi":[{"radio":{"mode":"5G","channel":0},"ap":[{"apidx":0,"ssid":"ChinaNet-TEST_5G","key":"12345678","auth":"wpapskwpa2psk","encrypt":"aes"}]}]},"status":{}}
+#elink={"type":"cfg","set":{"wifi":[{"radio":{"mode":"2.4G","channel":0},"ap":[{"apidx":0,"ssid":"ChinaNet-TEST","key":"12345678","auth":"wpapskwpa2psk","encrypt":"aes"}]}]}}
+#elink={"type":"cfg","set":{"real_devinfo":{"mac":"00E04C680092","hostname":"test-pc","internetaccess":0,"storageaccess":0}}}
+#elink={"type":"cfg","set":{"wifi":[{"radio":{"mode":"2.4G","channel":0},"ap":[{"apidx":0,"ssid":"ChinaNet-TEST","key":"12345678","auth":"wpapskwpa2psk","encrypt":"aes"}]}]}}
+#elink={"type":"cfg","set":{"roaming_set":{"enable":"no","threshold_rssi":-60,"report_interval":2,"start_time":5,"start_rssi":-40}}}

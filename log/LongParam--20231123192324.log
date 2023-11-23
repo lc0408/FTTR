@@ -1,0 +1,4 @@
+2023-11-23 19:23:26,068 - logger3 - INFO -  2023-11-23 19:23:02.931 [INFO] (abi) <- {"Result":0,"Ack":"SetPluginParams","ID":"1234ABCD","return_Parameter":"eyJDbWRUeXBlIjoiWF9WSVhURUxfVGVzdFRhc2tOb3RpZnkiLCJTZXF1ZW5jZUlkIjoiNDQ0NDQ0NDQiLCJTdGF0dXMiOjB9"} (170)
+
+root@SAF:/tmp#
+2023-11-23 19:23:26,069 - logger3 - INFO - Successful

@@ -1,0 +1,30 @@
+2023-06-13 21:10:59,400 - logger3 - INFO - brief-show slot 2 interface gpon-olt 1/8 ont-upgrade-status
+ONT       Status         
+1         DPOE_NOT_FOUND 
+
+P3602#
+2023-06-13 21:10:59,446 - logger3 - INFO - brief-show slot 2 interface gpon-olt 1/8 ont 1 brief
+ONT brief:
+Port ID                     :8   
+Ont ID                      :1   
+Primary state               :active                     
+Admin state                 :unlock                     
+optical state               :enable                     
+Operational state           :enable                     
+Vendor ID                   :H3CT                       
+Equipment ID                :GTH904-TW                  
+Vendor Product Code         :9941                       
+Main Software Version       :103                        
+Secondary Software Version  :103                        
+Sys Up Time                 :0 days 1h:52m:30s
+        
+Serial Number               :H3CT8A3365A2               
+Mac Limit                   :0                          
+Connectivity Capability     :0x7f                         
+flow profile                :0                          
+t-cont bind profile         :0                          
+service type                :1_mp                       
+t-cont vport bind type      :profile-based              
+Distance(m)                 :22
+
+P3602#

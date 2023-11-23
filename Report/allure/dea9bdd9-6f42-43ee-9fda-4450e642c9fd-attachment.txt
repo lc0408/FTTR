@@ -1,0 +1,29 @@
+INFO     logger3:base.py:63  ls -l
+drwx------    2 root     root           100 Jan  1 08:02 64b4c698-pQvFF7
+-rw-r--r--    1 root     root             6 Jan  1 08:00 TZ
+-rw-rw-rw-    1 root     root            24 Jan  1 08:01 app-ins-def.conf
+prw-------    1 root     root             0 Jan  1 08:00 app_dns.fifo
+-rw-rw-rw-    1 root     root          4348 Jan  1 08:01 appmgr.dbus.conf
+-rw-rw-rw-    1 root     root            11 Jan  1 08:01 b01odmv3.krnlmod
+-rw-r--r--    1 root     root             2 Jan  1 08:00 boot.devstyle
+prw-------    1 cloudcli root             0 Jan  1 08:02 cloudclient.fifo
+-rw-rw-rw-    1 cloudcli root             5 Jan  1 08:00 com.ctc.cloudclient1.owner
+-rw-rw-rw-    1 uhttpd   root            12 Jan  1 08:01 curhostip
+-rw-rw-rw-    1 root     root           129 Jan  1 08:01 dnsproxy.conf
+-rw-rw-rw-    1 root     root             0 Jan  1 08:01 handlemod.error
+drwxrwxrwx    2 root     root            40 Jan  1 08:00 lock
+-rw-------    1 uhttpd   root         43136 Jan  1 08:01 luci-indexcache
+drwxrwxrwx    2 uhttpd   root           320 Jan  1 08:01 luci-modulecache
+-rw-r--r--    1 root     root             0 Jan  1 08:00 resolv.conf
+-rw-r--r--    1 root     root             0 Jan  1 08:00 resolv.conf.auto
+drwxrwxrwx    2 root     root            40 Jan  1 08:00 run
+drwxrwxrwt    2 root     root            40 Jan  1 08:00 shm
+drwxrwxrwx    2 root     root            40 Jan  1 08:00 state
+drwxr-xr-x    2 root     root            80 Jan  1 08:00 sysinfo
+-rwxrwxrwx    1 root     root         53080 Jan  1 08:02 testserver
+-rw-r--r--    1 root     root         12241 Jan  1 08:02 testserver.conf
+drwxr-xr-x    3 root     root            60 Jan  1 08:00 usr
+root@SAF:/tmp#
+INFO     logger3:base.py:63  kill -USR1 'pidof testserver'
+ash: invalid number 'pidof testserver'
+root@SAF:/tmp#

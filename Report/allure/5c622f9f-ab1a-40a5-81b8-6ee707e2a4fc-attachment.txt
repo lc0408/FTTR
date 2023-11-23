@@ -1,0 +1,31 @@
+INFO     logger3:base.py:63  ls -l
+-rw-r--r--    1 root     root             6 Jan  1  1970 TZ
+-rw-rw-rw-    1 root     root            24 Jan  1  1970 app-ins-def.conf
+prw-------    1 root     root             0 Nov 22 15:59 app_dns.fifo
+-rw-rw-rw-    1 root     root          4348 Jan  1  1970 appmgr.dbus.conf
+-rw-rw-rw-    1 root     root            11 Jan  1  1970 b01odmv3.krnlmod
+-rw-r--r--    1 root     root             2 Jan  1  1970 boot.devstyle
+prw-------    1 cloudcli root             0 Nov 23 10:56 cloudclient.fifo
+-rw-rw-rw-    1 cloudcli root             7 Nov 23 10:56 com.ctc.cloudclient1.owner
+-rw-------    1 root     root        688128 Nov 22 18:01 core-testserver
+-rw-rw-rw-    1 uhttpd   root            12 Jan  1  1970 curhostip
+-rw-rw-rw-    1 root     root           182 Jan  1  1970 dnsproxy.conf
+-rw-rw-rw-    1 root     root             0 Jan  1  1970 handlemod.error
+-rw-rw-rw-    1 root     root          1698 Jan  1  1970 ipt4ntwkacc
+drwxrwxrwx    2 root     root            40 Jan  1  1970 lock
+-rw-------    1 uhttpd   root         43136 Nov 22 16:00 luci-indexcache
+drwxrwxrwx    2 uhttpd   root           320 Jan  1  1970 luci-modulecache
+-rw-rw-rw-    1 root     root            46 Jan  1  1970 resolv.conf
+-rw-r--r--    1 root     root             0 Jan  1  1970 resolv.conf.auto
+drwxrwxrwx    2 root     root            40 Jan  1  1970 run
+drwxrwxrwt    2 root     root            40 Jan  1  1970 shm
+drwxrwxrwx    2 root     root            40 Jan  1  1970 state
+drwxr-xr-x    2 root     root            80 Jan  1  1970 sysinfo
+-rwxrwxrwx    1 root     root         53080 Nov 22 18:07 testserver
+-rw-r--r--    1 root     root         10666 Nov 23 10:57 testserver.conf
+drwxr-xr-x    3 root     root            60 Jan  1  1970 usr
+root@SAF:/tmp#
+INFO     logger3:base.py:63  2023-11-23 10:57:03.309 [INFO] (abi) -> {"RPCMethod":"GetProperitesOfSubObjects","MAC":"8048A58BF7A6","ID":"30e06488-efd0-484f-ac63-236061eb802b","SequenceId":"1234ABCD","ServiceName":"com.ctc.igd1","InterfaceName":"com.ctc.igd1.LANHost","ObjectPath":"/com/ctc/igd1/Config/LANHosts"} (243)
+2023-11-23 10:57:03.317 [INFO] (abi) <- {"Ack":"GetProperitesOfSubObjects","ID":"30e06488-efd0-484f-ac63-236061eb802b","Status":"0","InterfaceName":"com.ctc.igd1.LANHost","Params":[{"ObjectPath":"/com/ctc/igd1/Config/LANHosts/1","Properties":[{"MAC":"EC6073F5CAD3"},{"HostName":"PC"},{"ControlStatus":false},{"InternetAccess":2},{"StorageAccess":true},{"MaxUSBandwidth":0},{"MaxDSBandwidth":0},{"DevType":"PC"},{"IP":"192.168.1.65"},{"IPv6":""},{"ConnectionType":0},{"Port":1},{"Brand":""},{"Model":""},{"OS":""},{"Active":true},{"LatestActiveTime":"1700639600"},{"LatestInactiveTime":"1700639572"},{"OnlineTime":68623},{"RxBytes":0},{"TxBytes":4818053},{"PowerLevel":0},{"DeviceOnlineNofication":false},{"NegoRate":1000000},{"DevName":""}]}],"SequenceId":"1234ABCD"} (727)
+
+root@SAF:/tmp#

@@ -1,0 +1,111 @@
+2023-06-19 20:18:27,386 - logger3 - INFO - 
+2023-06-19 20:18:30,526 - logger3 - INFO - 
+gc_omcicli dbg 7
+gc_omcicli omcilog on
+gccli consoleRedir on
+root@GTH904-TW:/home # gc_omcicli dbg 7
+root@GTH904-TW:/home # gc_omcicli omcilog on
+root@GTH904-TW:/home # gccli consoleRedir on
+console_redirect successfuly 
+root@GTH904-TW:/home #   adding: config.current.xml (deflated 92%)
+Archive:  /tmp/backup_decompress/raw_config
+  inflating: config.current.xml
+c
+2023-06-19 20:18:40,531 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock2
+BackupImage     =       /dev/mtdblock5
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       56
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       57
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c
+2023-06-19 20:18:50,538 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock2
+BackupImage     =       /dev/mtdblock5
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       56
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       57
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # ca
+2023-06-19 20:19:00,542 - logger3 - INFO - t /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock2
+BackupImage     =       /dev/mtdblock5
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       56
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       57
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # 
+2023-06-19 20:19:10,546 - logger3 - INFO - cat /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock2
+BackupImage     =       /dev/mtdblock5
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       56
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       57
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # [1970-01-01 08:09:08 CST] ERROR  cwmp_http_request_error_cb - error: HTTP EOF
+[1970-01-01 08:09:08 CST] ERROR cwmp_session_http_cb - session timeout
+[1970-01-01 08:09:08 CST] ERROR cwmp_session_terminate_cb - session failed: 110 - Connection timed out, url: http://162.168.1.100:9090/acs
+c
+2023-06-19 20:19:20,550 - logger3 - INFO - at /etc/gc_fw_info
+FlashSize       =       0xfa00000
+BootVersion     =       V1.2.0(05/30/2023-18:31:18)
+MainImage       =       /dev/mtdblock2
+BackupImage     =       /dev/mtdblock5
+Version =       V01.00.00
+FakeVersion     =       v1.1.t4.0303
+HwVersion       =       1.0
+VendorId        =       TW
+ModelId =       1610
+sequence        =       56
+SlaveVersion    =       V01.00.00
+SlaveFakeVersion        =       v1.1.t4.0303
+SlaveHwVersion  =       1.0
+SlaveVendorId   =       TW
+SlaveModelId    =       1610
+Slavesequence   =       57
+MaxImageSize    =       0x48a0000
+root@GTH904-TW:/home # c

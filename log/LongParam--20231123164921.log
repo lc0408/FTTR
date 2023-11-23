@@ -1,0 +1,8 @@
+2023-11-23 16:49:21,584 - logger3 - INFO -  tftp -g -r testserver.conf 192.168.1.65
+2023-11-23 16:49:18.003 [ERROR] (bss) server create socket failed: Address already in use
+testserver.conf      100% |*******************************| 14319   0:00:00 ETAtestserver.conf      100% |*******************************| 14319   0:00:00 ETA
+[2]+  Done(255)                  ./testserver
+root@SAF:/tmp#
+2023-11-23 16:49:21,602 - logger3 - INFO -  kill -USR1 `pidof testserver`
+
+root@SAF:/tmp#
